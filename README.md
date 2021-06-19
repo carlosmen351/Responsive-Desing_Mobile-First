@@ -1,2 +1,2 @@
 # Responsive-Desing_Mobile-Firts
-Pagina web maquetada con Mobile Firts
+Pagina web maquetada con Mobile firts
