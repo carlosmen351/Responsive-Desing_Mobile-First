@@ -1,2 +1,2 @@
-# Responsive-Desing_Mobile-Firts
-Pagina web maquetada con Mobile firts
+# Responsive-Desing_Mobile-First
+Pagina web maquetada con Mobile first
