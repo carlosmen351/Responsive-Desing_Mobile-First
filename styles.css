@@ -17,6 +17,7 @@
   --off-white: #faf8f7;
   --just-white: #fff;
 }
+/*Inicio estilos generales */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,6 +28,9 @@ html {
   font-size: 62.5%;
   font-family: 'DM Sans', sans-serif;
 }
+/*Fin estilos generales */
+/*Inicio estilos del header */
+
 header {
   position: relative;
   display: flex;
@@ -92,4 +96,54 @@ header img {
   height: 0.8rem;
   margin-left: 1rem;
   background-image: url("./assets/icons/down-arrow.svg");
+}
+/*Fin estilos del header */
+
+/* Inicio estilos de la primera seccion del main */
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+
+.main-exchange-container {
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.main-exchange-container--title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0  auto;
+}
+
+.main-exchange-container .backgroundImg {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background-image: url('./assets/img/Bitcoin.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-exchange-container h2 {
+  margin-bottom: 3rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.main-exchange-container p {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
 }
